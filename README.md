@@ -149,6 +149,14 @@ pip install torch torchvision numpy scikit-learn matplotlib seaborn pandas pillo
 ### Step-by-Step Pipeline
 
 ```bash
+# Prerequisites installation
+pip install -r requirements.txt
+
+# Option A: Run the Interactive Web Dashboard (Recommended)
+python app.py
+# Open http://localhost:5000 in your browser to train, monitor, and classify MRI scans interactively.
+
+# Option B: Run via CLI step-by-step
 # Step 1: Verify GPU availability
 python test_gpu.py
 
